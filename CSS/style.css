@@ -80,7 +80,7 @@ section{
     display: flex;
     list-style: none;
     margin-right:20px ;
-
+    padding-right: 2rem;
 }
 .menu_items li{
     border-radius: 3px;
@@ -192,8 +192,8 @@ ul.show{
 .descripcion_text{
     padding-top: 20px;
     font-family: 'Georama', sans-serif;
-    /* font-weight: 400; */
-    font-style: italic;
+    font-size: 1.2rem;
+
 }
 
 
