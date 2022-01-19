@@ -227,6 +227,8 @@ ul.show{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
+    justify-content: center;
+
 }
 .tecnologias_grid{
     padding: 20px;
@@ -241,18 +243,18 @@ ul.show{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     transition: 0.3s;
 
 }
 
 
+
 .tecnologias_card:hover{
     transform: scale(1.2);
 }
 .tecnologias_card i{
-    width: 50%;
     position: relative;
     top: 10px;
 }
@@ -499,4 +501,7 @@ width: 80%;
     transform: scale(1.0);
     -webkit-transform: scale(1.0);
   }
+}
+#contacto p{
+    text-decoration: none;
 }
